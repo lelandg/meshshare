@@ -1,0 +1,10 @@
+node_name: alpha
+node_address: https://alpha.mesh
+shared_dir: ./shared
+api_token: change-me
+allow_cidrs:
+  - 100.64.0.0/10
+deny_cidrs: []
+allow_peer_ids: []
+deny_peer_ids: []
+peer_ttl_seconds: 120
