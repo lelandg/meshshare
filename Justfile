@@ -2,7 +2,7 @@ set shell := ["bash", "-cu"]
 
 python := "python3"
 venv_dir := ".venv"
-activate := "source {{venv_dir}}/bin/activate"
+activate := "source " + venv_dir + "/bin/activate"
 
 setup:
     {{python}} -m venv {{venv_dir}}
